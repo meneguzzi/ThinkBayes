@@ -115,7 +115,8 @@ def PlotSuites(suites, root):
     thinkplot.Save(root=root,
                    xlabel='x',
                    ylabel='Probability',
-                   formats=['pdf', 'eps'])
+                   formats=['pdf'])
+                   # formats=['pdf', 'eps'])
 
 
 def main():

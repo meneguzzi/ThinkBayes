@@ -647,7 +647,8 @@ def Save(root=None, formats=None, **options):
     Config(**options)
 
     if formats is None:
-        formats = ['pdf', 'eps']
+        formats = ['pdf']
+        #formats = ['pdf', 'eps']
 
     try:
         formats.remove('plotly')
@@ -662,7 +663,7 @@ def Save(root=None, formats=None, **options):
         Clf()
 
 
-def SaveFormat(root, fmt='eps'):
+def SaveFormat(root, fmt='pdf'): # originally fmt='eps'
     """Writes the current figure to a file in the given format.
 
     Args:

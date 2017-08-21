@@ -1,6 +1,4 @@
-from os import path
-import sys
-
+# Written by Felipe Meneguzzi
 # Solution to Exercise 1 in page 19
 
 from cookie2 import Cookie
